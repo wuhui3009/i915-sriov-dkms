@@ -21,7 +21,7 @@ For v6.1 ~ v6.7, please use [intel-lts-v6.1](https://github.com/strongtz/i915-sr
 
 It is recommended that to upgrade to a supported kernel, the older branches will no longer be maintained.
 
-**Note on Secure Boot:** Loading out-of-tree kernel modules requires Secure Boot to be disabled. If you require Secure Boot, ensure you are using a signed kernel and follow the instructions in the [UEFI Secure Boot Enabled Configuration](#uefi-secure-boot-enabled-configuration-optional) section to sign the module.
+**Note on Secure Boot:** Loading out-of-tree kernel modules requires Secure Boot to be disabled. If you require Secure Boot, ensure you are using a signed kernel and follow the instructions in the [UEFI Secure Boot Enabled Configuration](docs/secure-boot.md) guide to sign the module.
 
 ## Required Kernel Parameters
 
@@ -71,7 +71,7 @@ If you encounter any issues that prevent the system from booting properly (e.g.,
 1. Press **Enter** to boot.
 
 Once the system is up, you can inspect the kernel logs to troubleshoot. 
-If the module remains unstable, follow the [Uninstallation](#uninstallation) steps to remove the module.
+If the module remains unstable, follow the [Uninstallation](#installation-guides) steps in your distribution's installation guide to remove the module.
 
 
 ## Installation Guides

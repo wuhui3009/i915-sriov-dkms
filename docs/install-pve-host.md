@@ -1,6 +1,6 @@
 # PVE Host Installation Steps (PVE 9.1)
 
-1. Install build tools: `apt install build-* dkms`
+1. Install build tools: `apt install build-essential dkms`
 2. Install the kernel and headers for desired version: `apt install proxmox-default-kernel proxmox-default-headers` (for unsigned kernel).
 3. Download deb package from the [releases page](https://github.com/strongtz/i915-sriov-dkms/releases)
    ```sh

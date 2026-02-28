@@ -7,7 +7,7 @@ These steps ensure compatibility across all driver versions. In theory you can i
 ### Extract Graphics EFI Firmware
 
 1. Download [UEFITools](https://github.com/LongSoft/UEFITool/releases) (`UEFITool_NE_A68_win64` for Windows. They supply Linux and Mac binaries, too)
-2. Download BIOS for motherboard (I suspect any motherboard BIOS would work as long as it is for Alder/Raptop Lake Desktop Platform)
+2. Download BIOS for motherboard (I suspect any motherboard BIOS would work as long as it is for Alder/Raptor Lake Desktop Platform)
 3. Unzip BIOS
 4. Use UEFITools (Run as Admin) to load the BIOS (usually `.cap`)
 5. Go to `Action - Search` or use keyboard shortcut `ctrl+F` and search for Hex string `49006e00740065006c00280052002900200047004f0050002000440072006900760065007200`

@@ -4,7 +4,7 @@ Note: Only applicable to Ubuntu, PVE, or other distributions based on Debian. If
 
 The precondition for executing the following steps: `UEFI Secure Boot is turned on and in User/Standard Mode.`
 
-1. Install `mokutill`.
+1. Install `mokutil`.
    ```bash
    sudo apt update && sudo apt install mokutil
    ```

@@ -4,7 +4,7 @@ We will need to run the same driver under Linux guests.
 
 1. Install build tools
    ```
-   apt install build-* dkms linux-headers-$(uname -r)
+   apt install build-essential dkms linux-headers-$(uname -r)
    ```
 2. Download and install the `.deb`
    ```
